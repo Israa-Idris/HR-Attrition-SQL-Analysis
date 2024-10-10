@@ -1,6 +1,10 @@
 # HR-Attrition-SQL-Analysis
 This repository contains SQL queries and analysis of the HR Employee Attrition dataset. The analysis aims to explore various factors contributing to employee attrition.
 
+
+![SQL](3161158.png)
+
+
 ## Project Overview
 
 The purpose of this project is to clean, explore, and analyze the HR Employee Attrition dataset using SQL. By querying the data, we can identify patterns and derive insights about employee attrition.
@@ -103,7 +107,7 @@ After verifying there were no duplicate records, the next step was to remove col
 - **Number of Columns:** 33
 - **Number of Rows:** 1470
 
-By removing these columns, we ensure that our analysis focuses on the most relevant data.
+By removing these columns, I ensure that my analysis focuses on the most relevant data.
 
 save the new table as , fair-yew-429113-a4.HR_Analytics.HR-Employee-Attrition3
 
@@ -151,7 +155,7 @@ the results of Attrition by Department is :
 | 2   | Sales                      | 92              | 446             | 20.63%          |
 | 3   | Human Resources            | 12              | 63              | 19.05%          |
 
-so we noticed the highest department attrition rate was Research and department, sales and human resources 
+so I noticed the highest department attrition rate was Research and department, sales and human resources 
 
 commonly reason if there is a high attrition rate in a department is monthly income so let's check this one 
 
@@ -221,9 +225,9 @@ GROUP BY
 
 - **Low Income :** You may notice a higher attrition rate, increase with lower-paid employees.
 
-- **Medium Income :** have moderate attrition rate
+- **Medium Income :** have moderate attrition rate.
 
-- **High Income :** have low attrition rate
+- **High Income :** have low attrition rate.
 
 ## Step 7: Average Monthly Income by Education Level
 
@@ -296,6 +300,8 @@ Low Attrition for Senior Jobs: Job Levels 4 and 5 have the lowest attrition rate
 
 ## Step 9: Attrition Rate by Gender
 
+This query assesses if there are gender differences in attrition rates.
+
 ```sql
 SELECT 
     Gender,
@@ -312,7 +318,6 @@ ORDER BY
 ```
 ### Attrition Rates Output by Gender
 
-This query assesses if there are gender differences in attrition rates.
 
 | Row | Gender | Total Employees | Attrition Count | Attrition Rate (%) |
 |-----|--------|-----------------|------------------|---------------------|
@@ -362,32 +367,31 @@ This is a critical area for organizations to address to retain talent.
 
 ## Conclusion
 
-Objective Achieved: The analysis successfully explored various factors contributing to employee attrition within the HR Employee Attrition dataset.
+**●** Objective Achieved: The analysis successfully explored various factors contributing to employee attrition within the HR Employee Attrition dataset.
 
-Data Cleaning: Irrelevant columns were identified and removed, enhancing the dataset's clarity and focus for analysis.
+**●** Data Cleaning: Irrelevant columns were identified and removed, enhancing the dataset's clarity and focus for analysis.
 
-Attrition Insights: A total of 237 employees were identified as having left the organization, with an overall attrition rate of approximately 16.1%.
+**●** Attrition Insights: A total of 237 employees were identified as having left the organization, with an overall attrition rate of approximately 16.1%.
 
-Department Analysis: The highest attrition rates were observed in the Sales department (20.63%) and Research & Development (13.84%), indicating potential areas of concern for employee retention strategies.
+**●** Department Analysis: The highest attrition rates were observed in the Sales department (20.63%) and Research & Development (13.84%), indicating potential areas of concern for employee retention strategies.
 
-Income Correlation: There is a clear correlation between income levels and attrition rates:
+**●** Income Correlation: There is a clear correlation between income levels and attrition rates:
 
 Low Income: Employees with low incomes experienced the highest attrition rate of 25.28%.
 Medium Income: This group had a moderate attrition rate of 10.75%.
 High Income: Employees with high incomes had the lowest attrition rate at 10.80%.
 
-Job Role Impact: Job roles with lower average monthly incomes, particularly in sales and research departments, are associated with higher attrition rates, suggesting that compensation may be a significant factor influencing employees' decisions to leave.
+**●** Job Role Impact: Job roles with lower average monthly incomes, particularly in sales and research departments, are associated with higher attrition rates, suggesting that compensation may be a significant factor influencing employees' decisions to leave.
 
-Actionable Recommendations: The findings suggest that improving compensation packages, especially for lower-paid roles, and addressing departmental challenges may enhance employee retention.
+**●** Actionable Recommendations: The findings suggest that improving compensation packages, especially for lower-paid roles, and addressing departmental challenges may enhance employee retention.
 
-Future Analysis: Further analysis is recommended to investigate other factors influencing attrition, such as work-life balance, and career advancement opportunities.
+**●** Future Analysis: Further analysis is recommended to investigate other factors influencing attrition, such as work-life balance, and career advancement opportunities.
 
 ### Tableau Visualizations: I will present all these findings through Tableau visualizations, allowing for a clearer understanding of the trends and insights derived from the dataset.
 
 If anyone wants to see the references, I have included the following resources:
 
-- The Excel file can be found [here](insert_link_to_excel_file).
-- The dataset is sourced from Kaggle and can be accessed [here](insert_link_to_kaggle_dataset).
-- My work in BigQuery is available [here](insert_link_to_bigquery_work).
+- The Excel file can be found [here](HR-Employee-Attrition.csv).
+- The dataset is sourced from Kaggle and can be accessed [here](https://www.kaggle.com/datasets/itssuru/hr-employee-attrition).
 
 Feel free to ask about anything!
