@@ -387,7 +387,9 @@ High Income: Employees with high incomes had the lowest attrition rate at 10.80%
 
 **●** Future Analysis: Further analysis is recommended to investigate other factors influencing attrition, such as work-life balance, and career advancement opportunities.
 
-### Tableau Visualizations: I will present all these findings through Tableau visualizations, allowing for a clearer understanding of the trends and insights derived from the dataset.
+### Tableau Visualizations
+I have presented all the findings through **Tableau visualizations**, offering a clearer view of the trends and insights drawn from the dataset. 
+You can explore my **visualization work** on [GitHub](https://github.com/Israa-Idris/HR-Attrition-Tableau-Dashboard-Analysis) for more details.
 
 If anyone wants to see the references, I have included the following resources:
 
